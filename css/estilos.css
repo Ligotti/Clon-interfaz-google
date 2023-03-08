@@ -6,7 +6,7 @@ body{
 }
 
 header{
-    height: 50px;
+    height: 55px;
     width: 100%;
 }
 
@@ -35,8 +35,8 @@ a{
 
 .nav-menu-right img{
     border-radius: 80px;
-    margin-left: 1px;
-    margin-right: 5px;
+    margin-left: 1%;
+    margin-right: 0 auto;
     width: 35px;
     height: 35px;
 }
@@ -53,25 +53,17 @@ a{
 
 main{
     margin-top: 50px;
-    padding-bottom: 10%;
+    text-align: center;
 }
 
 .logo{
-    width: 30px;
+    width: 530px;
     margin: 0 auto;
     margin-bottom: 30px;
-    padding: 0 auto;
-    padding-right: 29%;
-    position:relative;
 }
 
 .logo img{
-    position:relative;
-    padding: 100%;
-    padding-left: 100%;
-    margin: 50px;
-    height: 120px;
-    width:0 auto;
+    height: 103px;
 }
 
 input{
@@ -94,8 +86,8 @@ input{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0%;
-    margin: 0 34% ;
+    padding: 0 auto;
+    margin: 0 32% ;
     height: 200%;
 }
 
@@ -124,7 +116,8 @@ input{
 }
 .btn{
     width: 550px;
-    padding-left: 16%;
+    padding-left: 50px;
+    padding: 1%;
     margin: 0 auto;
 }
 
@@ -154,7 +147,6 @@ input{
     cursor: pointer;
 
 }
-
 
 footer{
     background-color: #f2f2f2;
