@@ -1,0 +1,149 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    height: 100px;
+}
+
+header{
+    height: 50px;
+    width: 100%;
+}
+
+header nav{
+    display: flexbox;
+    justify-content: flex-end;
+}
+
+nav ul li{
+    float: right;
+    list-style: none;
+    margin: 10px;
+    line-height: 35px;
+}
+
+nav{
+    background: white;
+    height: 50px;
+    border-bottom: 1px solid white;
+}
+
+.nav-menu-right img{
+    border-radius: 80px;
+    margin-left: 1px;
+    margin-right: 5px;
+    width: 35px;
+    height: 35px;
+    
+}
+
+.nav-menu-right .icon{
+    background-image: url('https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    margin: 15px;
+}
+
+.logo{
+    width: 30px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 0 auto;
+    padding-right: 26%;
+
+    position:static;
+}
+
+.logo img{
+    position:relative;
+    padding: 100%;
+    margin: 50px;
+    height: 100px;
+    width:auto;
+}
+
+.barra-icon input{
+    width: 400px;
+    height: 40px;
+    padding: 0 20px;
+    margin-right: 45%;
+    font-size: 18px;
+    color: black;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
+}
+
+.btn{
+    width: 550px;
+    padding-left: 23% ;
+
+    margin: 0 auto;
+
+}
+
+.btn div{
+    display: inline-block;
+    padding: 0 auto;
+}
+
+.btn button{
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 3px;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color:#3c4043;
+    padding: 0 16px;
+    margin: 10px 4px;
+    background-color: #f8f9fa;
+    line-height: 25px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn button:hover{
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px black;
+    color: black;
+    cursor: pointer;
+
+}
+
+
+footer{
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 15px;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer ul{
+    margin: 10px;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    background: #f2f2f2;
+}
+
+footer ul li a{
+    margin: 15px;
+    color: #5f6368;
+}
+footer .footer-left{
+    justify-self: left;
+}
+
+footer .footer-right{
+    justify-self: right;
+}
