@@ -1,9 +1,8 @@
-*{
-    font-family: 'Open Sans', sans-serif;
-}
-
 body{
     height: 100px;
+    padding: 0;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header{
@@ -12,7 +11,7 @@ header{
 }
 
 header nav{
-    display: flexbox;
+    display: flex;
     justify-content: flex-end;
 }
 
@@ -29,13 +28,17 @@ nav{
     border-bottom: 1px solid white;
 }
 
+a{
+    text-decoration: none;
+    cursor:pointer;
+}
+
 .nav-menu-right img{
     border-radius: 80px;
     margin-left: 1px;
     margin-right: 5px;
     width: 35px;
     height: 35px;
-    
 }
 
 .nav-menu-right .icon{
@@ -66,29 +69,62 @@ nav{
     width:auto;
 }
 
-.barra-icon input{
-    width: 400px;
+input{
+    width: 450px;
     height: 40px;
-    padding: 0 20px;
-    margin-right: 45%;
-    font-size: 18px;
-    color: black;
+    border: none;
     outline: none;
-    border: 1px solid silver;
-    border-radius: 30px;
+}
+.barra-search{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 40px;
 }
 
+
+.barra-icon{
+    width: 530px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    margin: 0 34% ;
+    height: 200%;
+}
+
+.barra-icon:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+}
+
+.search{
+    background-image: url('https://www.freepnglogos.com/uploads/search-png/search-icon-transparent-images-vector-16.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 19px;
+    height: 19px;
+    cursor: pointer;
+}
+
+.micro-icon{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 19px;
+    height: 19px;
+
+}
 .btn{
     width: 550px;
-    padding-left: 23% ;
-
+    padding-left: 16%;
     margin: 0 auto;
-
 }
 
 .btn div{
     display: inline-block;
-    padding: 0 auto;
 }
 
 .btn button{
@@ -108,8 +144,8 @@ nav{
 
 .btn button:hover{
     border: 1px solid #c6c6c6;
-    box-shadow: 0 1px 1px black;
-    color: black;
+    box-shadow: 0 1px 6px 0 #20212447
+    color black;
     cursor: pointer;
 
 }
@@ -139,6 +175,7 @@ footer ul{
 footer ul li a{
     margin: 15px;
     color: #5f6368;
+    text-decoration: none;
 }
 footer .footer-left{
     justify-self: left;
